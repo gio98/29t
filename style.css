@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 58px;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+p {
+  position: absolute !important;
+  color: floralwhite;
+  font-family: "Source Sans Pro";
+  font-size: 23px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 711px;
+  left: 605px;
+  top: 39%;
+}
+.orsetto {
+  position: absolute !important;
+  color: floralwhite;
+  width: 637px;
+  left: 18px;
+  top: -11%;
+}
+
+.vid1 {
+  position: absolute !important;
+  color: floralwhite;
+  width: 637px;
+  left: 628px;
+  top: 100%;
+}
