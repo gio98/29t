@@ -43,3 +43,51 @@ p {
   left: 628px;
   top: 100%;
 }
+
+@media  screen and (min-width: 600px) {
+  body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 58px;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+p {
+  position: absolute !important;
+  color: floralwhite;
+  font-family: "Source Sans Pro";
+  font-size: 49px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 1019px;
+  left: 81px;
+  top: 30%;
+}
+.orsetto {
+  position: absolute !important;
+  color: floralwhite;
+  width: 637px;
+  left: 18px;
+  top: -2%;
+}
+  
+  .vid1 {
+    position: absolute !important;
+    color: floralwhite;
+    width: 637px;
+    left: 91px;
+    top: 78%;
+}
+}
